@@ -69,3 +69,6 @@ class Gentle {
     }
 }
 new Gentle(Number([...document.querySelectorAll("table.ptt td")].slice(-2)[0].textContent), Number(gdd.querySelector("#gdd tr:nth-child(n+6) td.gdt2").textContent.split(" ")[0]));
+document.querySelectorAll("#gdt > img").forEach(function(e) {
+    e.style.width = "960px";
+});
